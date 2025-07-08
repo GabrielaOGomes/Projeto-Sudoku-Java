@@ -1,4 +1,4 @@
-package br.com.dio.util.util;
+package util;
 
 public final class BoardTemplate {
 

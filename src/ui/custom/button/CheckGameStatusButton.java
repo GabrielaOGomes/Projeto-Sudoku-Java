@@ -1,6 +1,14 @@
-package ui.custom;
+package ui.custom.button;
 
-public class buttonCheckGameStatusButton {
 
-    
+import javax.swing.*;
+import java.awt.event.ActionListener;
+
+public class CheckGameStatusButton extends JButton {
+
+    public CheckGameStatusButton(final ActionListener actionListener){
+        this.setText("Verificar Jogo");
+        this.addActionListener(actionListener);
+    }
+
 }
